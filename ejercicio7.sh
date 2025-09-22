@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "dime un directorio a comprimir:" directorio
+read -p "dime un directorio para comprimirlo:" directorio
 
 fecha=$(date +"%Y-%m-%d")
 nombre_directorio=$(basename "$directorio")
