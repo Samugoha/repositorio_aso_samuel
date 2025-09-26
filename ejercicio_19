@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filas=6
+filas=5
 
 for (( i=1; i<=filas; i++ )); do
   for (( s=1; s<=i; s++ )); do
