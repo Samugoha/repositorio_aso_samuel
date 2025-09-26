@@ -3,8 +3,8 @@
 filas=6
 
 for (( i=1; i<=filas; i++ )); do
- for (( s=1; s<i; s++ )); do
- echo -n "$s "
+  for (( s=1; s<=i; s++ )); do
+   echo -n "$i"
  done
- echo
+  echo
 done
