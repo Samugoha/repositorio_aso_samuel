@@ -1,2 +1,2 @@
-sed -i 's/daemon/servicio/g' /etc/passwd
+sudo sed -i 's/daemon/servicio/g' /etc/passwd
 
