@@ -12,7 +12,7 @@ if ! [[ "$numero" =~ ^[0-9]+$ ]]; then
 fi
 
 if [ "$numero" -lt 2 ]; then
-  echo "$numero no es primo."
+  echo "$numero el numero no es primo."
   exit 0
 fi
 
