@@ -1,0 +1,1 @@
+sudo sed -i 's/tcp/TCP/g' /etc/services
